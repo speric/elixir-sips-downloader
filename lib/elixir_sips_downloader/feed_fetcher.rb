@@ -15,7 +15,7 @@ class ElixirSipsDownloader::FeedFetcher
     @password = password
   end
 
-  # Fetch feed from Ruby Tapas.
+  # Fetch feed from Elixir Sips.
   #
   # @return [RSS::Rss] the feed for Ruby Tapas.
   def fetch
